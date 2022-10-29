@@ -11,7 +11,7 @@ Major benefit compare to Teradata SQL Assistant
 7. Short cut to select current query and format current query (where cursor stop)
 8. Can also be extended if onboarding with snowflake, EDL (As long as we can use python to query from local)
 9. Never need to login and autosave query, no need to worry when close file 
-10. User can set a timeout to stop query takes super long, or if VPN is not on 
+10. User can set a timeout to stop query takes super long 
 
 ## Install
 There are many ways to install, in one word is git clone this package in your sublime package folder, you can open your sublime package folder thru preferences==>"Browse Pakcages"
@@ -89,7 +89,7 @@ In case alias overwrite by other query, manually retype `as alias` after the tab
 #### Debug & troubleshooting
 For most of time, if you don't see sublime return anything back, a relaunch will fix the problem.
 
-If still sublime does not return anything back, open _teradata sql assistant_ and run the same query, see if it doesn't return anything as well. If it doesn't, try to restart vpn. And if you see result return from teradata SQL server, but not from sublime after relaunch and restart vpn, re-download this repo, maybe the bug is fixed in newest commit. 
+If still sublime does not return anything back, open _teradata sql assistant_ and run the same query, see if it doesn't return anything as well. If you see result return from teradata SQL server, but not from sublime after relaunch, re-download this repo, maybe the bug is fixed in newest commit. 
 
 If relaunch, restart, redownload all failed, congratulation, you spot a new bug! Contact [Stanley](mailto:wqeqsada2131@gmail.com?subject=[Sublime_Teradata_Plugin]%20%20Bug%20Report%20)!
 
